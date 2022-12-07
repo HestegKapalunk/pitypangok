@@ -52,6 +52,18 @@ body {
     background-image: url(img/dandy2.gif);
     background-repeat: no-repeat;
 }
-.li {
+ul {
     list-style-type: none;
+    background-color: rgba(230, 230, 230, 0.5);
+    overflow: hidden;
+    margin: 0;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+li {
+    display: block;
+    float: left;
+    margin:10px;
 }
