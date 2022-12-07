@@ -1,0 +1,35 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:    "header nav nav"
+                            "aside article footer";
+    gap: 10px;
+}
+.wrapper > div {
+    background-color: aqua;
+    border-radius: 8px;
+    padding: 10px;
+    height: 40vh;
+}
+.header {
+    grid-area: header;
+}
+.nav {
+    grid-area: nav;
+}
+.aside {
+    grid-area: aside;
+}
+.article {
+    grid-area: article;
+}
+.footer {
+    grid-area: footer;
+}
+.ul {
+    list-style-type: none;
+}
